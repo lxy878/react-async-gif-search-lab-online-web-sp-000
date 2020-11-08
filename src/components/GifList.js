@@ -6,7 +6,7 @@ const GifList = ({gifs}) => (
 
 const animalGif = ({url, width, height}, index) => (
     <div key={index.toString()}>
-        
+
         <img src={url} width={width} height={height}></img>
     </div>
 )
